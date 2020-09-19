@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netflix</title>
+    <link rel="stylesheet" href="project_1.css" />
+    <link href="https://pagecdn.io/lib/easyfonts/fonts.css" rel="stylesheet" />
+  </head>
+  <body>
+    
+      <div id="d2">
+          <h1 id="Title1">NET<span id="Title2">FLIX</span></h1>
+    
+          <h3 id="par1">Thank you for signing up at Netflix. Tell us more about yourself</h3> 
+        <form action="result.html" id="survey-form" method="GET" name="form" target="_blank">
+        <div id="d1">
+          <label for="text1">Name</label><br /><br />
+          <input type="text" id="text1" placeholder="Enter your name" required/>
+          <br /><br />
+          <label for="age1">Age</label><br /><br />
+          <input
+            type="number"
+            name="Age"
+            id="age1"
+            placeholder="age"
+            width="500" max="100" min="16" required
+          /><br /><br />
+          <label for="email1">Email</label><br /><br />
+          <input 
+            type="email"
+            name="Email"
+            id="email1"
+            placeholder="Enter your email"
+            required
+          />
+          <br /><br />
+          <label for="tip1">Content Type</label><br />
+          <select name="Tur" id="tip1">
+            <option value="Series">Series</option>
+          </select>
+          <br /><br />
+          <label id="checkbox">Movie Type</label> <br>
+          <label for="check1"><input type="checkbox" name="films1" value="Comedy" id="check1"/> Comedy</label>
+          <br />
+          <label for="check2"><input type="checkbox" name="films2" value="Action" id="check2"/> Action</label>
+           <br />
+           <label for="check3"><input type="checkbox" name="films3" value="Romance" checked id="check3"/>Romance</label>
+          
+          <br />
+          <br />
+          <label id="rad1">Gender</label> <br>
+          <label for="g1"><input type="radio" name="gender" value="Male" id="g1" /> Male </label>
+          <br />
+          <label for="g2"><input type="radio" name="gender" value="Female" id="g2"/> Female</label>
+           <br />
+           <label for="g3"><input type="radio" name="gender" value="Other" id="g3"/> Other</label>
+           <br /><br />
+          <label for="feedback">Feed Back</label> <br />
+          <br />
+          <textarea
+            name="comments"
+            id="feedback"
+            cols="45"
+            rows="6"
+            placeholder="Any comment"
+            style="resize: none;"
+          ></textarea>
+          <br /><br />
+         <center><input type="submit" value="Submit" id="s1" /></center> 
+        </div>
+        
+      </div>
+      
+    </form>
+  </body>
+</html>
