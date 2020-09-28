@@ -10,6 +10,9 @@ body {
   width: 150px;
   margin: 10px;
 }
+#Submit1 {
+    text-align: center;
+}
 #s1 {
   background-color: red;
   color: white;
@@ -19,7 +22,6 @@ body {
   border-radius: 100px;
   font-size: 15px;
   font-weight: bold;
-  margin: auto;
 }
 #s1:hover {
   background-color: white;
